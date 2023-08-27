@@ -3,7 +3,6 @@
 <br/>
 具体使用方法：
 
-<Usage>: VirtualScan [options]
 
 
           -url <http/https url>
@@ -14,7 +13,7 @@
           -shutdown           : set auto shutdown
           -d           : set dictionary path
           -w           : wait for a minute
-<Example>:
+
           VirtualScan www.target.com:8080 -m 10 -t 16 -d D:\dictionary\dictionary.txt
           VirtualScan www.target.com:80 -r "/test/" -d C:\Windows\dictionary.txt -w 50
           VirtualScan www.tartget.com -o C:\VirtualLog\Log.txt -shutdown true -w 20 -d G:\test\dictionary.txt
